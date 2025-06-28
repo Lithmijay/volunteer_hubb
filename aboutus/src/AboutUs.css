@@ -1,0 +1,465 @@
+/* Enhanced AboutUs.css */
+.about-container {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  overflow-x: hidden;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(135deg, #fff8fb 0%, #f8f9fa 100%);
+  padding: 4rem 2rem;
+  text-align: center;
+  position: relative;
+}
+
+.hero-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.hero h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: #d63384;
+  margin-bottom: 1.5rem;
+  text-shadow: 0 2px 4px rgba(214, 51, 132, 0.1);
+}
+
+.hero-subtitle {
+  font-size: 1.3rem;
+  color: #666;
+  margin-bottom: 2rem;
+  line-height: 1.7;
+  font-weight: 300;
+}
+
+.flowers {
+  font-size: 2.5rem;
+  margin-top: 2rem;
+  animation: gentle-bounce 3s ease-in-out infinite;
+}
+
+@keyframes gentle-bounce {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
+
+/* Mission & Vision Section */
+.mission-vision {
+  padding: 5rem 2rem;
+  background: #ffffff;
+}
+
+.mission-vision-grid {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+  gap: 3rem;
+}
+
+.mission-card, .vision-card {
+  background: linear-gradient(135deg, #fff 0%, #f8f9fa 100%);
+  padding: 3rem;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid #f0f0f0;
+}
+
+.mission-card:hover, .vision-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
+.card-icon {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.mission-card h3, .vision-card h3 {
+  font-size: 2rem;
+  color: #d63384;
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+}
+
+.mission-card p, .vision-card p {
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.8;
+}
+
+/* Story Section */
+.story-section {
+  padding: 5rem 2rem;
+  background: linear-gradient(135deg, #fff8fb 0%, #f8f9fa 100%);
+}
+
+.story-content {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.story-section h2 {
+  font-size: 2.8rem;
+  color: #d63384;
+  margin-bottom: 3rem;
+  font-weight: 600;
+}
+
+.story-text {
+  text-align: left;
+}
+
+.story-text p {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 2rem;
+  line-height: 1.8;
+  text-align: justify;
+}
+
+/* Values Section */
+.values-section {
+  padding: 5rem 2rem;
+  background: #ffffff;
+  text-align: center;
+}
+
+.values-section h2 {
+  font-size: 2.8rem;
+  color: #d63384;
+  margin-bottom: 3rem;
+  font-weight: 600;
+}
+
+.values-grid {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2.5rem;
+}
+
+.value-item {
+  background: #fff;
+  padding: 2.5rem 1.5rem;
+  border-radius: 15px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid #f0f0f0;
+}
+
+.value-item:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12);
+}
+
+.value-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.value-item h4 {
+  font-size: 1.4rem;
+  color: #d63384;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.value-item p {
+  color: #666;
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+/* Impact Stats Section */
+.impact-stats {
+  padding: 5rem 2rem;
+  background: linear-gradient(135deg, #d63384 0%, #e056a1 100%);
+  color: white;
+  text-align: center;
+}
+
+.impact-stats h2 {
+  font-size: 2.8rem;
+  margin-bottom: 3rem;
+  font-weight: 600;
+}
+
+.stats-grid {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+}
+
+.stat-item {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 2rem 1rem;
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  transition: transform 0.3s ease;
+}
+
+.stat-item:hover {
+  transform: scale(1.05);
+}
+
+.stat-number {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.stat-label {
+  font-size: 1.1rem;
+  opacity: 0.9;
+}
+
+/* Team Section */
+.team-section {
+  padding: 5rem 2rem;
+  background: #ffffff;
+  text-align: center;
+}
+
+.team-section h2 {
+  font-size: 2.8rem;
+  color: #d63384;
+  margin-bottom: 3rem;
+  font-weight: 600;
+}
+
+.team-grid {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2.5rem;
+}
+
+.team-member {
+  background: #fff;
+  padding: 2.5rem 1.5rem;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid #f0f0f0;
+}
+
+.team-member:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
+.member-avatar {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+.team-member h4 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.member-role {
+  color: #d63384;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+}
+
+.team-member p:not(.member-role) {
+  color: #666;
+  line-height: 1.6;
+  font-size: 0.95rem;
+}
+
+/* Links Section */
+.links-section {
+  padding: 4rem 2rem;
+  background: linear-gradient(135deg, #fff8fb 0%, #f8f9fa 100%);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 4rem;
+  border-radius: 20px;
+  margin: 2rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.column {
+  min-width: 220px;
+  text-align: center;
+}
+
+.column h3 {
+  font-size: 1.4rem;
+  margin-bottom: 1.5rem;
+  color: #d63384;
+  font-weight: 600;
+}
+
+.column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.column ul li {
+  margin: 1rem 0;
+}
+
+.column ul li a {
+  text-decoration: none;
+  color: #555;
+  font-size: 1.05rem;
+  transition: all 0.3s ease;
+  padding: 0.5rem 1rem;
+  border-radius: 25px;
+  display: inline-block;
+}
+
+.column ul li a:hover {
+  color: #d63384;
+  background: rgba(214, 51, 132, 0.1);
+  transform: translateX(5px);
+}
+
+/* Call to Action Section */
+.cta-section {
+  padding: 5rem 2rem;
+  background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+  color: white;
+  text-align: center;
+}
+
+.cta-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.cta-section h2 {
+  font-size: 2.8rem;
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+}
+
+.cta-section p {
+  font-size: 1.3rem;
+  margin-bottom: 3rem;
+  opacity: 0.9;
+}
+
+.cta-buttons {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.btn-primary, .btn-secondary {
+  padding: 1rem 2.5rem;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.btn-primary {
+  background: #d63384;
+  color: white;
+}
+
+.btn-primary:hover {
+  background: #b02a5b;
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(214, 51, 132, 0.3);
+}
+
+.btn-secondary {
+  background: transparent;
+  color: white;
+  border: 2px solid white;
+}
+
+.btn-secondary:hover {
+  background: white;
+  color: #2c3e50;
+  transform: translateY(-3px);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+  
+  .hero-subtitle {
+    font-size: 1.1rem;
+  }
+  
+  .mission-vision-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .mission-card, .vision-card {
+    padding: 2rem;
+  }
+  
+  .values-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .team-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .links-section {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .cta-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .btn-primary, .btn-secondary {
+    width: 250px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero {
+    padding: 2rem 1rem;
+  }
+  
+  .mission-vision, .story-section, .values-section, .impact-stats, .team-section {
+    padding: 3rem 1rem;
+  }
+  
+  .stat-number {
+    font-size: 2rem;
+  }
+  
+  .stats-grid {
+    grid-template-columns: 1fr;
+  }
+}
